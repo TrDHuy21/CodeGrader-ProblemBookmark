@@ -7,6 +7,7 @@ namespace Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProblemBookmarkController : ControllerBase
     {
         private IProblemBookmarkService _problemBookmarkService;
